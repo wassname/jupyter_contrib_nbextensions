@@ -28,3 +28,7 @@ Parameters:
   description: Message to append when output is limited
   input_type: text
   default: '<b>limit_output extension: Maximum message size for {message_type} of {limit_output_length} exceeded with {output_length} characters</b>'
+- name: clip_start
+  description: Clip the start of a long message if true, the end if false
+  input_type: checkbox
+  default: false
